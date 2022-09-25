@@ -1,0 +1,49 @@
+/* TAG SELECTORS (WILL BE OVERRIDED BY ID OR CLASS SELECTORS) */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+body {
+    background-color: silver;
+}
+
+p {
+    color: purple;
+    text-align: center;
+}
+
+/* CLASS SELECTORS (CAN BE USE FOR MULTIPLE ELEMENTS*/
+.bacon {
+    display: block;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.broccoli {
+    display: block;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/* ID SELECTOR (UNIQUE NAME CAN ONLY BE APPLIED ONCE TO THE PAGE)*/
+
+#heading {
+
+    color: blue;
+}
+
+
+/* HOVER */
+
+img:hover {
+    background-color: gold;
+
+}
